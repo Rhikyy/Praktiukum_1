@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>STT Terpadu Nurul Fikri</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 40px;
+      }
+
+      .container {
+        width: 80%;
+        max-width: 800px;
+        margin: auto;
+        background-color: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        color: #1e3a8a;
+        margin-bottom: 5px;
+      }
+
+      p {
+        text-align: center;
+        color: #666;
+        margin-top: 0;
+      }
+
+      .gambar {
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      .gambar img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid #1e3a8a;
+      }
+
+      ol {
+        background-color: #f8fafc;
+        padding: 20px 40px;
+        border-radius: 8px;
+      }
+
+      ol > li {
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+
+      ul {
+        margin-top: 8px;
+      }
+
+      ul li {
+        font-weight: normal;
+        margin-bottom: 5px;
+      }
+
+      table {
+        width: 100%;
+        margin: 25px 0;
+        border-collapse: collapse;
+      }
+
+      th {
+        background-color: #1e3a8a;
+        color: white;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: center;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      form {
+        margin-top: 25px;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 14px;
+      }
+
+      textarea {
+        height: 100px;
+        resize: vertical;
+      }
+
+      input[type="submit"] {
+        background-color: #1e3a8a;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #162d6b;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>STT TERPADU NURUL FIKRI</h1>
+
+      <p>Kampus technopreneur di Indonesia</p>
+
+      <div class="gambar">
+        <img
+          src="assets/img/download.jpeg"
+          alt="Logo STT Terpadu Nurul Fikri"
+        />
+      </div>
+
+      <ol>
+        <li>
+          Juice
+          <ul>
+            <li>Orange Juice : Rp. 50k</li>
+            <li>Apple Juice : Rp. 100k</li>
+            <li>Nangka Juice : Rp. 20k</li>
+          </ul>
+        </li>
+
+        <li>
+          Snack
+          <ul>
+            <li>Keripik Singkong : Rp. 10k</li>
+            <li>Keripik Pisang : Rp. 15k</li>
+            <li>Keripik Kentang : Rp. 20k</li>
+          </ul>
+        </li>
+      </ol>
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>NO</th>
+            <th>NIM</th>
+            <th>NAMA LENGKAP</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>123456</td>
+            <td>John Doe</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>1231231</td>
+            <td>Jane Doe</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <form action="">
+        <input type="text" name="anak" placeholder="Nama Lengkap" />
+
+        <input
+          type="number"
+          name="umur"
+          min="0"
+          max="5"
+          placeholder="Masukkan umur"
+        />
+
+        <textarea
+          name="Deskripsi"
+          placeholder="Tulis deskripsi anak Anda"
+        ></textarea>
+
+        <input type="submit" value="Kirim" />
+      </form>
+    </div>
+  </body>
+</html>
+```
